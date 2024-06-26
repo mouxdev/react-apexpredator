@@ -1,6 +1,9 @@
-import ApexCharts from 'apexcharts'
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+
+
+
+const React = require("react")
+const ApexCharts = require("apexpredator")
+const PropTypes = require("prop-types");
 
 window.ApexCharts = ApexCharts
 
@@ -13,7 +16,7 @@ function omit(obj, keysToRemove) {
 }
 
 
-export default class Charts extends Component {
+export default class Charts extends React.Component {
   constructor (props) {
     super(props)
     if (React.createRef) {

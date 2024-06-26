@@ -8,4 +8,5 @@ module.exports = {
     "/node_modules/",
     "/example/"
   ],
+  transformIgnorePatterns: ["/node_modules/(?!(apexpredator))/"]
 };
