@@ -1,5 +1,5 @@
 {
-  "name": "react-apexcharts",
+  "name": "react-apexpredator",
   "version": "1.4.101",
   "description": "React.js wrapper for ApexCharts",
   "main": "dist/react-apexcharts.min.js",
@@ -17,13 +17,6 @@
     "apexcharts",
     "data-visualization"
   ],
-  "author": {
-    "name": "Juned Chhipa",
-    "email": "juned.chhipa@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/apexcharts/react-apexcharts/issues"
-  },
   "license": "MIT",
   "dependencies": {
     "jest-environment-jsdom": "^29.7.0",
